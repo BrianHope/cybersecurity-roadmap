@@ -1,1 +1,26 @@
+# 🖥️ Day 1 — OS Basics & Kernel Lab
 
+## 📚 What I Learned
+
+- The **kernel** is the core of the operating system. It manages memory, processes, and hardware communication.
+- `/proc` is a special virtual directory that gives a live view into how the system is running.
+- Tools like `top`, `ps`, `df`, and `dmesg` help investigate performance, problems, and attacks.
+
+---
+
+## 🔧 Terminal Commands I Ran
+
+```bash
+uname -r                # Show kernel version
+cat /proc/version       # Full system build info
+dmesg | tail            # Last kernel messages
+ps aux | head -n 10     # Show running processes
+top                     # Real-time process monitor
+free -h                 # RAM usage
+df -h                   # Disk usage
+mount                   # Mounted filesystems
+lsblk                   # Block devices
+ls -lah /               # Root directory listing
+ls /proc                # Show /proc contents
+cat /proc/cpuinfo       # CPU info
+cat /proc/meminfo       # Memory details
