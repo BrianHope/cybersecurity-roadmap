@@ -28,13 +28,6 @@ This repository documents my learning journey into cybersecurity and system admi
 
 ## How to Use This Repo
 
-- Browse the `foundations/week1/os_basics.md` file to see my notes, command outputs, and reflections.
-- I recommend beginners run these commands on their Linux VM to get hands-on experience.
-- Screenshots (if included) are in the `screenshots/` folder for visual reference.
-
----
-
-## Next Steps
-
-I plan to continue this journey with Windows CLI tools, PowerShell scripting, and cybersecurity fundamentals in upcoming weeks.
+- look in the different weeks folders and find the day that you want to look at
+- it will correspond to the information that is explained in the readme for that day
 
